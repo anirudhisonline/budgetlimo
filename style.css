@@ -1,0 +1,251 @@
+html{
+    font-family: 'Urbanist', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.safeare{
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+}
+
+nav{
+  display: flex; 
+  align-items: center;
+  justify-content: space-around; 
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 0%;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: #7000ff;
+}
+
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a{
+    padding: 3px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services{
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.events{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse;          */
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7000ff;
+    color: white;
+}
+
+.about .oppheading{
+    margin-left: 100px;
+    margin-right: 0%;
+}
+
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.customform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    margin-top: 10px;
+}
+
+form input{
+    margin: 10px;
+    font-family: 'Urbanist';
+
+}
+
+.secondarybtn{
+    margin-left: 10px;
+}
+
+button{
+  background-color: #7000ff;
+  border: none;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Urbanist';
+  margin-top: 14px;
+}
+
+input {
+    padding: 12px;
+    background-color: white;
+    color: black;
+  }
+
+.btn{
+    text-decoration: none;
+    background-color: #7000ff;
+    color: white;
+    max-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.sbtn{
+    text-decoration: none;
+    background-color: white;
+    color: #7000ff;
+    max-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.btnset{
+    display: flex;
+}
+.btnset a{
+    padding: 10px;
+}
+
+.heroheading{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.heroheading a .btn{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 12px;
+}
+
+.heroheading a{
+    width: fit-content;
+}
+
+.heroheading h1{
+    font-size: 42px;
+}
+
+.oppheading{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 100px;
+    
+}
+
+.oppheading a .btn{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 12px;
+}
+.oppheading a .sbtn{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 12px;
+}
+
+.heroheading a .sbtn{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 12px;
+}
+
+.oppheading a{
+    width: fit-content;
+}
+
+.oppheading h1{
+    font-size: 42px;
+}
+
+.about .oppheading .btn{
+    background-color: black;
+    margin: 0%;
+}
+
+
+
+
+.about .oppheading a{
+    padding: 0%;
+    margin: 0%;
+}
+
+.heroimg{
+    max-width: 50%;
+    max-height: 93vh;
+}
+
+.oppimg{
+    max-width: 50%;
+    max-height: 100vh;
+}
