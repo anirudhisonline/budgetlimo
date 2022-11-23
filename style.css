@@ -202,9 +202,11 @@ input {
 }
 
 .heroheading h1{
-    font-size: 42px;
+    font-size: 2em;
 }
-
+.heroheading h2{
+    font-size: 1.2em;
+}
 .oppheading{
     display: flex;
     flex-direction: column;
@@ -244,7 +246,7 @@ input {
 }
 
 .oppheading h1{
-    font-size: 42px;
+    font-size: 2em;
 }
 
 .about .oppheading .btn{
@@ -369,7 +371,7 @@ footer{
 /* [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] */
 /* [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] */
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1010px){
 
     .oppimg{
         max-width: 85vw;
