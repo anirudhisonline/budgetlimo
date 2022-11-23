@@ -128,7 +128,7 @@ form input{
 }
 
 .secondarybtn{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 button{
@@ -577,6 +577,9 @@ footer{
         padding: 2px;
         font-weight: bold;
     }
+    .btn:hover{
+        background-color: red;
+    }
     
     .sbtn{
         text-decoration: none;
@@ -588,6 +591,10 @@ footer{
         justify-content: center;
         padding: 2px;
         font-weight: bold;
+    }
+
+    .sbtn:hover{
+        background-color: rgb(215, 215, 215);
     }
     
     .btnset{
