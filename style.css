@@ -16,6 +16,10 @@ a{
 .safeare{
     /* margin-left: 100px; */
     /* margin-right: 100px; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav{
@@ -74,9 +78,21 @@ nav a:hover{
 }
 
 img{
-    border: solid;
+    /* border: solid; */
+    /* box-shadow: inset 0 0 10px #000000; */
+    box-shadow: 9px 10px 10px 0px rgba(0,0,0,0.26);
 }
 .events{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse;          */
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.policy{
     height: 100vh;
     display: flex;
     /* flex-direction: row-reverse;          */
@@ -103,6 +119,7 @@ img{
 
 .contact{
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,6 +205,7 @@ input {
     background-color: rgba(255, 255, 255, 1);
     padding: 40px;
     border-radius: 12px;
+    box-shadow: 9px 10px 10px 0px rgba(0,0,0,0.26);
 }
 
 .heroheading a .btn{
@@ -216,7 +234,7 @@ input {
     align-items: flex-start;
     padding: 40px;
     border-radius: 12px;
-    
+    box-shadow: 9px 10px 10px 0px rgba(0,0,0,0.26);
 }
 
 .oppheading a .btn{
@@ -484,6 +502,18 @@ footer{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .policy{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;         
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        color: black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
     
     .about{
         height: auto;
